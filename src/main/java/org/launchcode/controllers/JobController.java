@@ -49,6 +49,7 @@ public class JobController {
             jobData.add(job);
             return "redirect:/job/?id=" + job.getId();
         }
+
         model.addAttribute("errors", errors);
         return "new-job";
     }
