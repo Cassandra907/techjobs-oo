@@ -121,4 +121,3 @@ public class JobForm {
         this.positionTypes = positionTypes;
     }
 }
-
