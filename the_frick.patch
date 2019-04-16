@@ -1,0 +1,15 @@
+Index: src/main/java/org/launchcode/controllers/JobController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/org/launchcode/controllers/JobController.java	(date 1554572740000)
++++ src/main/java/org/launchcode/controllers/JobController.java	(date 1554572800100)
+@@ -49,6 +49,7 @@
+             jobData.add(job);
+             return "redirect:/job/?id=" + job.getId();
+         }
++
+         model.addAttribute("errors", errors);
+         return "new-job";
+     }
